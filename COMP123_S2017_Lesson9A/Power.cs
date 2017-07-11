@@ -5,7 +5,7 @@ using System.Text;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the new Power data type
- * Version: 0.1 - Power class created
+ * Version: 0.2 - Addd a custom constructor
  */
 namespace COMP123_S2017_Lesson9A
 {
@@ -14,8 +14,23 @@ namespace COMP123_S2017_Lesson9A
         /// <summary>
         /// The Power class contains the data and structure of the each Super Power. 
         /// </summary>
+        
+        // PUBLIC PROPERTIES
         public string Name { get; set; }
-        public int rank { get; set; }
+        public int Rank { get; set; }
+
+        //CONSTRUCTORS ------------------------------------------------------------------------------------------------
+        /// <summary>
+        /// This is the constructor for the power class
+        /// It takes two parameters- name and rank
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public Power (string name, int rank)
+        {
+            this.Name = name;
+            this.Rank = rank;
+        }
 
     }
 }

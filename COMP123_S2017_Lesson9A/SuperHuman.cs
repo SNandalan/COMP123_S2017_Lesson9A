@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the SuperHuman class that derives from the Human class
- * Version: 0.2 - Added Private Initialize Method
+ * Version: 0.3 - Added Public AddPower Method
  */
 namespace COMP123_S2017_Lesson9A
 {
@@ -21,7 +21,13 @@ namespace COMP123_S2017_Lesson9A
         private List<Power> _powers;
 
         //PUBLIC PROPERTIES
-       
+       public List<Power> Powers
+        {
+            get
+            {
+                return this._powers; // returns a reference to the Powers List
+            }
+        }
 
         //CONSTRUCTORS
         public SuperHuman(string name)
@@ -38,5 +44,15 @@ namespace COMP123_S2017_Lesson9A
             this._powers = new List<Power>();
         }
         //PUBLIC METHODS
+        /// <summary>
+        /// This method adds a Power to the Power list
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
+
     }
 }
