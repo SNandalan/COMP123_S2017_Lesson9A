@@ -33,12 +33,13 @@ namespace COMP123_S2017_Lesson9A
         }
        //CONSTRUCTORS-------------------------------------------------------------------------------------------
        /// <summary>
-       /// This is the constructor for the hUman abstract class
-       /// 
+       /// This is the constructor for the human abstract class
+       /// It requires one parameter - name
        /// </summary>
-        public Human()
+       /// <param name = "name"></param>
+        public Human(string name)
         {
-
+            this.Name = name;
         }
     }
 }
