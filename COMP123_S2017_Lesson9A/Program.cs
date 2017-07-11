@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the driver class for my project
- * Version: 0.1 - Instantiated an object of type SuperHuman
+ * Version: 0.2 - Added SuperHuman object and displayed it
  */
 namespace COMP123_S2017_Lesson9A
 {
@@ -16,6 +16,7 @@ namespace COMP123_S2017_Lesson9A
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
             superHuman.Powers.Add(new Power("Teleportation", 50));
+            superHuman.DisplayPowers();
         }
     }
 }

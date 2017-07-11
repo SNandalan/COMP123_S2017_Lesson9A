@@ -5,7 +5,7 @@ using System.Text;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the new Power data type
- * Version: 0.2 - Addd a custom constructor
+ * Version: 0.2 - Added a custom constructor
  */
 namespace COMP123_S2017_Lesson9A
 {
