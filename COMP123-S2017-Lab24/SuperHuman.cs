@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the SuperHuman class that extends to the Human class
- * Version: 0.6 - Modified the Tostring() method to add spaces to the string output
+ * Version: 0.7 - Added a DisplaySkills() stub method to satify the Human superclass  method. 
  */
 namespace COMP123_S2017_Lab24
 {
@@ -77,6 +77,15 @@ namespace COMP123_S2017_Lab24
             }
             outputString += "*****************************************************************************************\n";
             return outputString;
+        }
+
+        /// <summary>
+        /// This method overrides the Human abstract superclass DisplaySkills() method
+        /// This method will display a list of skills to the console.
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented!");
         }
     }
 }
