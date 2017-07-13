@@ -14,13 +14,6 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="COMP123_S2017_Lab24.SuperHuman">
-    <Position X="5.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>SuperHuman.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="COMP123_S2017_Lab24.Program">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -29,12 +22,19 @@
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lab24.SuperHero">
-    <Position X="6.5" Y="2.5" Width="1.5" />
+    <Position X="4.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="COMP123_S2017_Lab24.SuperHuman">
+    <Position X="6.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
+      <FileName>SuperHuman.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="COMP123_S2017_Lab24.IHasKarma">
     <Position X="8.5" Y="0.5" Width="1.5" />
