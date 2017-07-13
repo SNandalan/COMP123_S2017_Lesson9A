@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the SuperHuman class that extends to the Human class
- * Version: 0.5 - Added the overridden ToString() method to the SuperHuman class
+ * Version: 0.6 - Modified the Tostring() method to add spaces to the string output
  */
 namespace COMP123_S2017_Lab24
 {

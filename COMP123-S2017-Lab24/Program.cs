@@ -15,8 +15,9 @@ namespace COMP123_S2017_Lab24
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.Powers.Add(new Power("Teleportation", 50));
-            superHuman.DisplayPowers();
+            superHuman.Powers.Add(new Power("Spider Cloning", 50));
+            superHuman.Powers.Add(new Power("Teleporting", 40));
+            Console.WriteLine(superHuman.ToString());
         }
     }
 }
