@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
  * Description: This is the abstract clas Human which other subclasses will derive from
- * Version: 0.1 - Class Created
+ * Version: 0.2 - Added abstract method DisplaySkills()
  */
 namespace COMP123_S2017_Lab24
 {/// <summary>
@@ -41,5 +41,13 @@ namespace COMP123_S2017_Lab24
         {
             this.Name = name;
         }
+
+        //PRIVATE METHODS
+
+        //PUBLIC METHODS
+
+        //PUBLIC ABSTRACT METHODS
+        public abstract void DisplaySkills();
     }
+
 }
