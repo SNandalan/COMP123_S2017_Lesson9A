@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 /*Name: Sushmita Nandalan
  * Date: July 11th 2017
- * Description: This is the SuperHuman class that derives from the Human class
- * Version: 0.3 - Added Public AddPower Method
+ * Description: This is the SuperHuman class that extends to the Human class
+ * Version: 0.5 - Added the overridden ToString() method to the SuperHuman class
  */
-namespace COMP123_S2017_Lesson9A
+namespace COMP123_S2017_Lab24
 {
     /// <summary>
     /// This is the SuperHuman sub class
@@ -59,6 +59,24 @@ namespace COMP123_S2017_Lesson9A
             {
                 Console.WriteLine("Name: " + power.Name + " Rank: " +power.Rank);
             }
+        }
+        /// <summary>
+        ///The ToString method overrides the built-in Object.ToString method.
+        /// It outputs a string that displays the superhuman's name and their power list.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "*****************************************************************************************\n";
+            outputString += "Super Human Name: " + this.Name + "\n";
+            outputString += "*****************************************************************************************\n";
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+            }
+            outputString += "*****************************************************************************************\n";
+            return outputString;
         }
     }
 }

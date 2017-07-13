@@ -7,7 +7,7 @@ using System.Text;
  * Description: This is the new Power data type
  * Version: 0.2 - Added a custom constructor
  */
-namespace COMP123_S2017_Lesson9A
+namespace COMP123_S2017_Lab24
 {
     public class Power
     {

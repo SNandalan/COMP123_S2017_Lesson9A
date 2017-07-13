@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  * Description: This is the abstract clas Human which other subclasses will derive from
  * Version: 0.1 - Class Created
  */
-namespace COMP123_S2017_Lesson9A
+namespace COMP123_S2017_Lab24
 {/// <summary>
 /// this is the human abstract class
 /// </summary>

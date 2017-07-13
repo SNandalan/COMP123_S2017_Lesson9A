@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Description: This is the driver class for my project
  * Version: 0.2 - Added SuperHuman object and displayed it
  */
-namespace COMP123_S2017_Lesson9A
+namespace COMP123_S2017_Lab24
 {
     class Program
     {
