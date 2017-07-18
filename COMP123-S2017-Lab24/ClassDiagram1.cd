@@ -30,14 +30,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="COMP123_S2017_Lab24.SuperHuman">
-    <Position X="6.5" Y="0.75" Width="1.75" />
+    <Position X="7.25" Y="0.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="COMP123_S2017_Lab24.IHasKarma">
-    <Position X="8.5" Y="0.5" Width="1.5" />
+    <Position X="10" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
