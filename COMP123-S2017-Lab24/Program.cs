@@ -18,6 +18,13 @@ namespace COMP123_S2017_Lab24
             superHuman.Powers.Add(new Power("Spider Cloning", 50));
             superHuman.Powers.Add(new Power("Teleporting", 40));
             Console.WriteLine(superHuman.ToString());
+
+            SuperVillain superVillain = new SuperVillain("SuperVillain Dude", 20);
+            superVillain.AddPower("Shadow Casting", 50);
+            superVillain.AddPower("Mind Control", 40);
+            superVillain.AddPower("Combat Senses", 30);
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Malice: " + superVillain.Malice);
         }
     }
 }

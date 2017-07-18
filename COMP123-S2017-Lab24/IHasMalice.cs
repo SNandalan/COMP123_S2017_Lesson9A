@@ -8,6 +8,6 @@ namespace COMP123_S2017_Lab24
 {
     public interface IHasMalice
     {
-        public int Malice { get; set; }
+        int Malice { get; set; }
     }
 }
